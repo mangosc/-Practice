@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script type="text/javascript" language="JavaScript">
+        function getname(str)
+        {
+            alert("Hello" + str+"!");
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <input type="text" name="text1" onblur="getname(this.value)">
+        <input type="button" name="Button1" value="提交" onclick="getname(text1.value)">
+    </form>
+</body>
+</html>
